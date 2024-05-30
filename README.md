@@ -27,7 +27,7 @@
 
 - Hacemos login con Github
 - En *Sites* le damos a <ins>*Add new site*</ins> y seleccionamos *Github* para que aparezcan nuestros repositorios. En caso de que no aparezca el repositorio de *Github* que quieras, te dará la opción de acceder a *Github* y elegir el repositorio en cuestión deseado para el *deployment*.
-- Seleccionamos en nuestro caso <ins>*DFA-PAC5-deployment*</ins> y en las opciones, ponemos que se realice el *deploy* de la rama *main*, el comando para realizar la build será <ins>*ng build --prod*</ins> y el directorio a publicar será <ins>*dist/pac5*</ins>.
+- Seleccionamos en nuestro caso <ins>*DFA-PAC5-deployment*</ins> y en las opciones, ponemos que se realice el *deploy* de la rama *main*, el comando para realizar la build será <ins>*ng build --configuration production*</ins> y el directorio a publicar será <ins>*dist/pac5*</ins>.
 - Le damos a *deploy* y una vez finalice sino hay problemas, podremos ver nuestra web en: 
 
 
