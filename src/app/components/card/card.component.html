@@ -6,6 +6,7 @@
 
   <!-- Contenido del modo de vista -->
   <div *ngIf="!loading" class="animate__animated animate__fadeIn">
+    <h1 class="mt-5">Lista de películas que contienen la palabra "Star"</h1>
 
     <!-- Botones de Grid y List -->
     <div class="btn-group mb-3 mt-3" role="group" aria-label="View Mode">
@@ -20,7 +21,6 @@
           <mat-spinner></mat-spinner>
         </div>
         <div *ngIf="!loading" class="animate__animated animate__fadeIn">
-          <h1 class="mt-5">Lista de películas que contienen la palabra "Star"</h1>
           <div class="row">
             <div class="col-md-4 mb-4" *ngFor="let movie of movies">
               <div class="card card-hover">
