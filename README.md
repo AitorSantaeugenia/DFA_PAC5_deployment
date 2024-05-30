@@ -125,6 +125,11 @@ import { MatExpansionModule } from '@angular/material/expansion';
 https://dfa-pac5.netlify.app/
 
 
+<div align="center">
+<img alt="Deployment en Netlify" src="./src/assets/images/img6.png"   />
+<p><i>Deployment en Netlify</i></p>
+</div>
+
 <br><hr><br>
 <div align="center">
     <code>BY-NC-SA @</code> <a href="https://github.com/AitorSantaeugenia">Aitor J. Santaeugenia Marí</a>
