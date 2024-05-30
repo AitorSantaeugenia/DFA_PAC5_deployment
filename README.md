@@ -30,7 +30,6 @@
 - Seleccionamos en nuestro caso <ins>*DFA-PAC5-deployment*</ins> y en las opciones, ponemos que se realice el *deploy* de la rama *main*, el comando para realizar la build será <ins>*ng build --configuration production*</ins> y el directorio a publicar será <ins>*dist/pac5*</ins>.
 - Le damos a *deploy* y una vez finalice sino hay problemas, podremos ver nuestra web en: 
 
-
 ### API utilizada
 - Hemos decidido utilizar una *API* de películas llamada https://www.omdbapi.com/ (ya he usado *TMDB API* https://developer.themoviedb.org/reference/intro/getting-started anteriormente, así que he decido usar esta que és algo diferente).
 - Requiere de una llave para ser usada (1 min. registro).
